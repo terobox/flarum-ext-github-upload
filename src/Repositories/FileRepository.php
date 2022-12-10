@@ -159,7 +159,7 @@ class FileRepository
 
         $url = $response->content->download_url;
         if (((string)$this->settings->get('irony.github.upload.jsdelivrcdn')) == '1')
-            $url = str_replace('raw.githubusercontent.com/', 'cdn.jsdelivr.net/gh/',
+            $url = str_replace('raw.githubusercontent.com/', 'fastly.jsdelivr.net/gh/',
                 str_replace('/main/', '@main/', str_replace('/master/', '@master/', $url)));
 
         try {
