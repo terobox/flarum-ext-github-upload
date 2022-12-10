@@ -21,8 +21,8 @@
         "milo/github-api": "^1.4.6"
     },
     "support": {
-        "issues": "https://github.com/892768447/flarum-ext-github-upload/issues",
-        "source": "https://github.com/892768447/flarum-ext-github-upload"
+        "issues": "https://github.com/terobox/flarum-ext-github-upload/issues",
+        "source": "https://github.com/terobox/flarum-ext-github-upload"
     },
     "extra": {
         "flarum-extension": {
@@ -35,7 +35,7 @@
         },
         "flagrow": {
             "discuss": "",
-            "github": "https://github.com/892768447/flarum-ext-github-upload"
+            "github": "https://github.com/terobox/flarum-ext-github-upload"
         }
     },
     "autoload": {
